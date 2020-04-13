@@ -1,6 +1,6 @@
 .header-sets {
     background-color: darkcyan;
-    height:150px;
+    height:250px;
 }
 
 .footer-sets {
@@ -8,6 +8,53 @@
     height:100px;
 }
 .main-sets {
-    min-height:calc(100vh - 250px);
+    min-height:calc(100vh - 350px);
+
+}
+
+.logo{
+    background: url("../images/the-bell-jar-logo-white.png");
+    /* background-position: center; */
+    background-repeat: no-repeat;
+    background-size: contain;
+    min-height: 240px;
+    width:240px;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    /* display:inline-block; */
+
+}
+
+nav {
+    display:inline-block;
+    position:absolute;
+    right:0px;
+    bottom:0px;
+}
+
+nav ul {
+    margin:0;
+}
+}
+.menu-container {
+    padding:0;
+}
+.menuitem {
+    padding:20px;
+    font-size:24px;
+    color:white;
+
+}
+
+
+@media (max-width:840px) {
+    .logo {
+        position: absolute;
+        left:calc(50% - 120px);
+    }
+    nav {
+        display:none;
+    }
 
 }
