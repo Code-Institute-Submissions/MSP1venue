@@ -1,15 +1,19 @@
 .header-sets {
-    background-color: darkcyan;
+    background-color: #6b7a8f;
     height:250px;
 }
 
 .footer-sets {
-    background-color:dimgrey;
+    background-color:#dcc7aa;
     height:100px;
 }
 .main-sets {
     min-height:calc(100vh - 350px);
 
+}
+
+.logo-container {
+    background-color:#f7c331;
 }
 
 .logo{
@@ -23,38 +27,65 @@
     -moz-transition: all .5s ease-in-out;
     -webkit-transition: all .5s ease-in-out;
     /* display:inline-block; */
-
-}
-
-nav {
-    display:inline-block;
     position:absolute;
-    right:0px;
-    bottom:0px;
+    left:calc(50% - 120px);
+
 }
 
-nav ul {
-    margin:0;
+#nav{
+height:20%;
 }
-}
+
+
+
 .menu-container {
     padding:0;
 }
 .menuitem {
-    padding:20px;
+    /* padding:20px;
     font-size:24px;
     color:white;
+    border: 3px solid white; */
+    text-decoration:none;
+    color:white;
+    text-transform:uppercase;
+    text-align: center;
+    line-height:50px;
+       }
+
+.menu-col{
+    /* border:1px solid black; */
+    text-align:center;
+    height:100%;
+   
 
 }
 
+#menutop{
+    height:80%;
+}
+
+.jumbo {
+    background: url("../images/jumboimage.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    width:100%;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    /* display:inline-block; */
+    /* position:absolute;
+    left:calc(50% - 120px); */
+}
 
 @media (max-width:840px) {
     .logo {
         position: absolute;
         left:calc(50% - 120px);
-    }
-    nav {
-        display:none;
+    
     }
 
 }
+
