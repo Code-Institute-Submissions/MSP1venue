@@ -1,0 +1,13 @@
+.header-sets {
+    background-color: darkcyan;
+    height:150px;
+}
+
+.footer-sets {
+    background-color:dimgrey;
+    height:100px;
+}
+.main-sets {
+    min-height:calc(100vh - 250px);
+
+}
