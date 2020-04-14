@@ -52,7 +52,14 @@ height:20%;
     text-transform:uppercase;
     text-align: center;
     line-height:50px;
+    
        }
+
+       .menuitem:hover {
+
+  color: #f7c331;
+  text-decoration:none;
+}
 
 .menu-col{
     /* border:1px solid black; */
@@ -67,7 +74,7 @@ height:20%;
 }
 
 .jumbo {
-    background: url("../images/jumboimage.jpg");
+    background: url("../images/belljarroom.jpg");
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -81,7 +88,7 @@ height:20%;
     left:calc(50% - 120px); */
 }
 
-@media (max-width:960px) {
+@media (max-width:990px) {
     .logo {
         position: absolute;
         left:calc(50% - 120px);
