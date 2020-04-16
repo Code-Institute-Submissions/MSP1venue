@@ -1,6 +1,6 @@
 .header-sets {
     background-color: #6b7a8f;
-    padding-top:200px;
+    padding-top:0px;
 }
 
 .footer-sets {
@@ -8,28 +8,34 @@
     height:100px;
 }
 .main-sets {
-    min-height:calc(100vh - 350px);
+    min-height:calc(75vh - 100px);
+    
 
 }
 
 .logo-container {
     background-color:#f7c331;
- height:250px;
+    height:25vh;
 }
 
 .logo{
     background: url("../images/the-bell-jar-logo-white.png");
-    /* background-position: center; */
-    background-repeat: no-repeat;
     background-size: contain;
-    min-height: 240px;
-    width:240px;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
+    background-repeat: no-repeat;
+    height: 25vh;
+    width:25vh;
+    /* background-position: center; */
+    margin-left:calc(50% - 12.5vh);
+
+
+    /* transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out; 
+    -webkit-transition: all .5s ease-in-out; */
+    /* margin-left: calc(50% - 12.5vh); */
     /* display:inline-block; */
-    position:absolute;
-    left:calc(50% - 120px);
+    /* position:absolute;
+    left:calc(50% -12.5vh); */
+ 
 
 }
 
@@ -65,8 +71,13 @@ height:20%;
     /* border:1px solid black; */
     text-align:center;
     height:100%;
+    /* padding:0; */
    
+}
 
+header .container-fluid .row .col {
+    /* height:25vh;  */
+    padding-top:calc(25vh - 50px)
 }
 
 #menutop{
@@ -102,6 +113,7 @@ height:20%;
 .navbar button {
     background-color:#6b7a8f;
     margin-left:8px;
+    margin-right:8px;
 }
 
 #navbarNavDropdown {
@@ -127,13 +139,29 @@ height:20%;
 @media (max-width:990px) {
     .logo {
         position: absolute;
-        left:calc(50% - 120px);
+        left:calc(50% - 12.5vh);
+        margin-left:0;
 
     
     }
+
+    header .container-fluid .row .col {
+    /* height:25vh;  */
+    padding-top:0;
+}
+
     .header-sets {
         padding-top:0;
     }
 
 }
 
+@media (max-height:467px) {
+.main-sets {
+    min-height:250px;
+}
+.logo, .logo-container {
+     height:120px;
+     width:120px;
+}
+}
