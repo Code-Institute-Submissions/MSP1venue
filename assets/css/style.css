@@ -146,7 +146,7 @@ header .container-fluid .row .col {
     }
 
     header .container-fluid .row .col {
-    /* height:25vh;  */
+   
     padding-top:0;
 }
 
@@ -172,4 +172,9 @@ header .container-fluid .row .col {
 
     
     }
+
+        header .container-fluid .row .col {
+   
+    padding-top:70px;
+}
 }
