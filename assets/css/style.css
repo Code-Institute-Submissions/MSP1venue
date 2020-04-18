@@ -75,7 +75,7 @@ height:20%;
  
 
        }
-    .active {
+   header .active {
    /* ---testing possible Bell Jar Menu animation */
     padding: 20px 5px 5px 5px;
     border-bottom:5px double #f7c331;
@@ -87,12 +87,6 @@ height:20%;
     background-color:rgba(255, 234, 42, 0.15)
     }
 
-/* .test {
-    border-bottom:2px double #f7c331;
-    border-left:1px solid #f7c331;
-    border-right:1px solid #f7c331;
-
-} */
 
 .menuitem:hover {
   color: #f7c331;
@@ -212,7 +206,7 @@ footer p {
     line-height:unset;
 }
 
-/* -----COPIED FROM WHISKEY PROJECT */
+/* -----NAV */
 .navbar {
     margin-bottom: 0;
     border:0;
@@ -234,6 +228,7 @@ footer p {
     padding-left:0px;
     margin-top:8px;r
     width:100%;
+     
 }
 
 .navbar .navbar-toggler {
@@ -246,8 +241,10 @@ footer p {
 
 .navbar .navbar-nav a {
     font-weight:bold;
+   
 }
-/* ----END OF COPY */
+
+
 
 @media (max-width:992px) {
     .logo {
@@ -268,10 +265,11 @@ footer p {
     min-height:calc(75vh - 150px);
     }
 
-    .active {
+   header .active {
    /* ---testing possible Bell Jar Menu animation */
     padding:0;
     border:none;
+    background-color:rgba(0,0,0,0);
 
     }
 }
@@ -300,7 +298,6 @@ footer p {
 
     
     }
-<<<<<<< HEAD
 header .container-fluid .row .col {
     padding-top:70px;
 }
@@ -330,11 +327,3 @@ header .container-fluid .row .col {
     color:White;
     text-align:right;
     }
-=======
-
-        header .container-fluid .row .col {
-   
-    padding-top:70px;
-}
-}
->>>>>>> 2328cfe8c19cfd03c921a0a0c1ba2722b92679f1
