@@ -122,6 +122,15 @@ footer .container-fluid .row .col .row .col {
     padding:0;
 }
 
+footer p {
+    font-size:12px;
+    color:white;
+    margin:23px;
+    margin-left:50px;
+    line-height:1.2;
+    text-align:center;
+}
+
 /* ---BUTTON--- */
 
 #bookbutton {
