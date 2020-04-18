@@ -84,6 +84,7 @@ height:20%;
     border-top:2px solid #f7c331;
     border-top-left-radius: 50%;
     border-top-right-radius:50%;
+    background-color:rgba(255, 234, 42, 0.15)
     }
 
 /* .test {
@@ -256,7 +257,7 @@ footer p {
     }
 
     header .container-fluid .row .col {
-    /* height:25vh;  */
+   
     padding-top:0;
 }
 
@@ -299,6 +300,7 @@ footer p {
 
     
     }
+<<<<<<< HEAD
 header .container-fluid .row .col {
     padding-top:70px;
 }
@@ -328,3 +330,11 @@ header .container-fluid .row .col {
     color:White;
     text-align:right;
     }
+=======
+
+        header .container-fluid .row .col {
+   
+    padding-top:70px;
+}
+}
+>>>>>>> 2328cfe8c19cfd03c921a0a0c1ba2722b92679f1
