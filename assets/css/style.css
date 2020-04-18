@@ -71,8 +71,27 @@ height:20%;
     text-transform:uppercase;
     text-align: center;
     line-height:50px;
-    
+
+ 
+
        }
+    .active {
+   /* ---testing possible Bell Jar Menu animation */
+    padding: 20px 5px 5px 5px;
+    border-bottom:5px double #f7c331;
+    border-left:2px solid #f7c331;
+    border-right:2px solid #f7c331;
+    border-top:2px solid #f7c331;
+    border-top-left-radius: 50%;
+    border-top-right-radius:50%;
+    }
+
+/* .test {
+    border-bottom:2px double #f7c331;
+    border-left:1px solid #f7c331;
+    border-right:1px solid #f7c331;
+
+} */
 
 .menuitem:hover {
   color: #f7c331;
@@ -246,9 +265,14 @@ footer p {
     }
     .main-sets {
     min-height:calc(75vh - 150px);
+    }
 
-}
+    .active {
+   /* ---testing possible Bell Jar Menu animation */
+    padding:0;
+    border:none;
 
+    }
 }
 
 @media (max-width:576px) {
@@ -275,7 +299,7 @@ footer p {
 
     
     }
-    header .container-fluid .row .col {
+header .container-fluid .row .col {
     padding-top:70px;
 }
 }
