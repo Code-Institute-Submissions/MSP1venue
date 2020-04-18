@@ -60,6 +60,7 @@ height:20%;
 .menu-container {
     padding:0;
 }
+
 .menuitem {
     /* padding:20px;
     font-size:24px;
@@ -129,6 +130,16 @@ footer p {
     margin-left:50px;
     line-height:1.2;
     text-align:center;
+}
+
+#footermail {
+    text-decoration:none;
+    color:white;
+}
+
+#footermail:hover {
+  color: #f7c331;
+  text-decoration:none;
 }
 
 /* ---BUTTON--- */
