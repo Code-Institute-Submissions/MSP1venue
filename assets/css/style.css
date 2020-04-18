@@ -284,3 +284,23 @@ footer p {
     padding-top:0;
 }
 }
+
+/* -----PAGE CONTENT--- */
+.jumbo span {
+    background-color:rgba(0,0,0,0.5);
+    position:absolute;
+    bottom:15%;
+    right:5%;
+    margin-left:5px;
+}
+.jumbo h1 {
+    color:White;
+    text-align:right;
+
+}
+
+.jumbo p {
+    font-size:20px;
+    color:White;
+    text-align:right;
+    }
