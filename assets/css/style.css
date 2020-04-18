@@ -246,6 +246,48 @@ footer p {
 
 
 
+
+
+/* -----PAGE CONTENT--- */
+.jumbo span {
+    background-color:rgba(0,0,0,0.5);
+    position:absolute;
+    bottom:15%;
+    right:5%;
+    margin-left:5px;
+}
+.jumbo h1 {
+    color:White;
+    text-align:right;
+
+}
+
+.jumbo p {
+    font-size:20px;
+    color:White;
+    text-align:right;
+    }
+
+.venue-car {
+    width:100%;
+}
+
+.venuespace {
+    padding-top:10px;
+}
+
+#theatre-head {
+    text-align:right;
+}
+
+#included-head {
+    text-align:center;
+}
+
+
+
+/* MEDIAQUERIES */
+
 @media (max-width:992px) {
     .logo {
         position: absolute;
@@ -274,11 +316,17 @@ footer p {
     }
 }
 
+@media (max-width:768px) {
+    #theatre-head, #music-head {
+    text-align:justify;
+}
+}
 @media (max-width:576px) {
     .main-sets {
     min-height:calc(75vh - 100px);
 
 }
+
 
 }
 
@@ -301,29 +349,11 @@ footer p {
 header .container-fluid .row .col {
     padding-top:70px;
 }
+
 }
+
 @media (max-width:992px) and (max-height:467px) {
      header .container-fluid .row .col {
     padding-top:0;
 }
 }
-
-/* -----PAGE CONTENT--- */
-.jumbo span {
-    background-color:rgba(0,0,0,0.5);
-    position:absolute;
-    bottom:15%;
-    right:5%;
-    margin-left:5px;
-}
-.jumbo h1 {
-    color:White;
-    text-align:right;
-
-}
-
-.jumbo p {
-    font-size:20px;
-    color:White;
-    text-align:right;
-    }
