@@ -284,6 +284,15 @@ footer p {
     text-align:center;
 }
 
+.whatsi {
+    width:55px;
+    text-align:center;
+}
+
+#whatsincluded .col-md-6, #whatsincluded .col-12 {
+    padding-bottom:25px;
+}
+
 
 
 /* MEDIAQUERIES */
