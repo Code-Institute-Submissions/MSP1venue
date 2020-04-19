@@ -310,9 +310,19 @@ footer p {
 
 /* ----CATERING--- */
 
-.col-12.col-lg-10.cafetext {
+.col-12.col-lg-7.cafetext {
     padding:15px;
 }
+
+#jaredimg {
+  text-align:center;
+  padding:15px 0;
+}
+
+#jaredimg h4 {
+    padding-top:5px;
+}
+
 
 
 /* MEDIAQUERIES */
