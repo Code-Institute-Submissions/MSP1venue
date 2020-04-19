@@ -123,6 +123,20 @@ header .container-fluid .row .col {
     /* position:absolute;
     left:calc(50% - 120px); */
 }
+.cafejumbo {
+    background: url("../images/cafe.jpg");
+    background-position: left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    width:100%;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    /* display:inline-block; */
+    /* position:absolute;
+    left:calc(50% - 120px); */
+}
 
 /* -----FOOTER ----*/
 .footer-sets {
@@ -248,20 +262,22 @@ footer p {
 
 
 /* -----PAGE CONTENT--- */
-.jumbo span {
+
+/* ----VENUE---- */
+.jumbo span, .cafejumbo span {
     background-color:rgba(0,0,0,0.5);
     position:absolute;
     bottom:15%;
     right:5%;
     margin-left:5px;
 }
-.jumbo h1 {
+.jumbo h1, .cafejumbo span {
     color:White;
     text-align:right;
 
 }
 
-.jumbo p {
+.jumbo p, .cafejumbo p {
     font-size:20px;
     color:White;
     text-align:right;
@@ -292,6 +308,11 @@ footer p {
     padding-bottom:25px;
 }
 
+/* ----CATERING--- */
+
+.col-12.col-lg-10.cafetext {
+    padding:15px;
+}
 
 
 /* MEDIAQUERIES */
