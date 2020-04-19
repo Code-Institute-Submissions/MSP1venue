@@ -76,7 +76,6 @@ height:20%;
 
        }
    header .active {
-   /* ---testing possible Bell Jar Menu animation */
     padding: 20px 5px 5px 5px;
     border-bottom:5px double #f7c331;
     border-left:2px solid #f7c331;
@@ -84,7 +83,7 @@ height:20%;
     border-top:2px solid #f7c331;
     border-top-left-radius: 50%;
     border-top-right-radius:50%;
-    background-color:rgba(255, 234, 42, 0.15)
+    /* background-color:rgba(255, 234, 42, 0.15) */
     }
 
 
