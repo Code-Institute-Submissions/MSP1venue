@@ -173,7 +173,7 @@ footer p {
 
 /* ---BUTTON--- */
 
-#bookbutton {
+#bookbutton, #bookerbuttoncontact {
     text-decoration:none;
     color:white;
     text-transform:uppercase;
@@ -184,7 +184,7 @@ footer p {
 .buttoncontainer{
     text-align:center;
 }
-#booker {
+#booker, #bookercontact {
     background-color: #6b7a8f;
     border:2px solid #f7c331;
     border-radius:5px;
@@ -380,6 +380,44 @@ footer p {
     text-align:center;
 }
 
+
+/* --CONTACT-- */
+
+#contactmail {
+    text-decoration:none;
+}
+
+#contactmail:hover {
+  color: #f7c331;
+  text-decoration:none;
+}
+#bookerbuttoncontact {
+    text-decoration:none;
+    color:#6b7a8f;
+    text-transform:uppercase;
+    text-align: center;
+    line-height:50px;
+
+}
+
+#bookercontact {
+    background-color: #f7c331;
+    border:2px solid #6b7a8f;
+    border-radius:5px;
+    line-height:0;
+    margin-top:23px;
+    display:inline-block;
+}
+
+.contactbuttoncontainer {
+    text-align:center;
+}
+
+.contactbuttoncontainer button {
+    margin: 20px 0;
+}
+
+
 /* MEDIAQUERIES */
 
 @media (max-width:992px) {
@@ -409,6 +447,7 @@ footer p {
 
     }
 }
+
 
 
 @media (max-width:992px) {
