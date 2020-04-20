@@ -140,6 +140,9 @@ header .container-fluid .row .col {
     left:calc(50% - 120px); */
 }
 
+main.col-12.cafejumbo {
+    height:300px;
+}
 /* -----FOOTER ----*/
 .footer-sets {
     /* background-color:#dcc7aa; */
@@ -456,6 +459,7 @@ footer p {
     width:70%;
 }
 }
+
 
 @media (max-width:768px) {
     #theatre-head, #music-head {
