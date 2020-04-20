@@ -10,7 +10,7 @@ body {
 body h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
     }
-
+/* HEADER */
 
 .header-sets {
     background-color: #6b7a8f;
@@ -24,6 +24,7 @@ header h5 {
 
 .main-sets {
     min-height:calc(75vh - 100px);
+    
 
 }
 
@@ -111,38 +112,10 @@ header .container-fluid .row .col {
     height:80%;
 }
 
-.jumbo {
-    background: url("../images/belljarroom.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:100%;
-    width:100%;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    /* display:inline-block; */
-    /* position:absolute;
-    left:calc(50% - 120px); */
-}
-.cafejumbo {
-    background: url("../images/cafe.jpg");
-    background-position: left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    height:100%;
-    width:100%;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    /* display:inline-block; */
-    /* position:absolute;
-    left:calc(50% - 120px); */
-}
 
-main.col-12.cafejumbo {
-    height:300px;
-}
+
+
+
 /* -----FOOTER ----*/
 .footer-sets {
     /* background-color:#dcc7aa; */
@@ -230,7 +203,6 @@ footer p {
     border:0;
     width:100%;
     background-color:rgba(0,0,0,0);
-        /* background-color:#6b7a8f; */
     padding-left:0;
     padding-right:0;
     padding-bottom:0;
@@ -268,7 +240,23 @@ footer p {
 
 /* -----PAGE CONTENT--- */
 
-/* ----VENUE---- */
+/* ----HOME---- */
+
+.jumbo {
+    background: url("../images/belljarroom.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:100%;
+    width:100%;
+    transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out;
+    /* display:inline-block; */
+    /* position:absolute;
+    left:calc(50% - 120px); */
+}
+
 .jumbo span, .cafejumbo span {
     background-color:rgba(0,0,0,0.5);
     position:absolute;
@@ -276,7 +264,7 @@ footer p {
     right:5%;
     margin-left:5px;
 }
-.jumbo h1, .cafejumbo span {
+.jumbo h1, .cafejumbo h1 {
     color:White;
     text-align:right;
 
@@ -314,6 +302,22 @@ footer p {
 }
 
 /* ----CATERING--- */
+
+.cafejumbo {
+    background: url("../images/cafe.jpg");
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:50vh;
+    /* height:100%;
+    width:100%; */
+    /* transition: all .5s ease-in-out;
+    -moz-transition: all .5s ease-in-out;
+    -webkit-transition: all .5s ease-in-out; */
+    /* display:inline-block; */
+    /* position:absolute;
+    left:calc(50% - 120px); */
+}
 
 .col-12.col-lg-7.cafetext {
     padding:25px 15px 15px 15px;
@@ -443,7 +447,6 @@ footer p {
     }
 
    header .active {
-   /* ---testing possible Bell Jar Menu animation */
     padding:0;
     border:none;
     background-color:rgba(0,0,0,0);
@@ -457,6 +460,10 @@ footer p {
 
 .center-it {
     width:70%;
+}
+
+.cafejumbo {
+    height:35vh;
 }
 }
 
@@ -490,6 +497,9 @@ footer p {
 .vcircle {
     height:150px;
     width:150px;
+}
+.cafejumbo {
+    height:40vh;
 }
 
 }
