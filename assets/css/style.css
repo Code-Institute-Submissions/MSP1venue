@@ -10,6 +10,8 @@ body {
 body h1, h2, h3, h4, h5, h6 {
     font-family: "Raleway", sans-serif;
     }
+
+
 .header-sets {
     background-color: #6b7a8f;
     padding-top:0px;
@@ -350,7 +352,33 @@ footer p {
 }
 
 /* ---PRICES */
+.center-it {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:40px;
+    width:90%;
+}
+.center-it-c {
+    margin-left:auto;
+    margin-right:auto;
+    margin-top:20px;
+    margin-bottom:10px;
+    width:175px;
+    height:175px;
+}
 
+.vcircle {
+    height:175px;
+    width:175px;
+}
+
+.center-it h4 {
+    margin-bottom:10px;
+}
+
+.center-discount {
+    text-align:center;
+}
 
 /* MEDIAQUERIES */
 
@@ -382,17 +410,44 @@ footer p {
     }
 }
 
+
+@media (max-width:992px) {
+
+.center-it {
+    width:70%;
+}
+}
+
 @media (max-width:768px) {
     #theatre-head, #music-head {
     text-align:justify;
 }
+
 }
+
 @media (max-width:576px) {
     .main-sets {
     min-height:calc(75vh - 100px);
 
 }
+.center-it {
+    width:100%;
+    margin-top:40px;
+}
 
+.center-it-c {
+    height:150px;
+    width:150px;
+}
+.center-it h4 {
+    font-size:125%;
+ 
+}
+
+.vcircle {
+    height:150px;
+    width:150px;
+}
 
 }
 
@@ -415,6 +470,7 @@ footer p {
 header .container-fluid .row .col {
     padding-top:70px;
 }
+
 
 }
 
