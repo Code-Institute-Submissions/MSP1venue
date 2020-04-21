@@ -399,13 +399,16 @@ footer p {
   color: #f7c331;
   text-decoration:none;
 }
-#bookerbuttoncontact {
+#bookbuttoncontact {
     text-decoration:none;
     color:#6b7a8f;
     text-transform:uppercase;
     text-align: center;
     line-height:50px;
 
+}
+#bookbuttoncontact:hover {
+color:white;
 }
 
 #bookercontact {
@@ -425,6 +428,28 @@ footer p {
     margin: 20px 0;
 }
 
+iframe {
+    display:block;
+    width:100%;
+   height:50vh;
+   padding:15px;
+}
+
+.contacttext {
+    text-align:center;
+    padding:25px 20px 15px 20px;
+}
+.contactinfo, .openinghours {
+    padding:15px;
+    text-align:center;
+}
+
+/* infocol {
+    position:absolute;
+    margin-top:auto;
+    margin-bottom:auto;
+    vertical-align:center;
+} */
 
 /* MEDIAQUERIES */
 
@@ -502,6 +527,13 @@ footer p {
 .cafejumbo {
     height:40vh;
 }
+.contactinfo {
+    text-align:left;
+}
+.openinghours {
+    text-align:right;
+}
+
 
 }
 
