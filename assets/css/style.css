@@ -486,6 +486,9 @@ iframe {
 .cafejumbo {
     height:35vh;
 }
+iframe {
+    height:30vh;
+}
 }
 
 
@@ -528,8 +531,23 @@ iframe {
 .openinghours {
     text-align:right;
 }
+iframe {
+    padding:15px 0 15px 0;
+    height:35vh;
+}
+#bookercontact {
+    margin-top:10px;
+    margin-bottom:10px;
+}
 
+.contacttext h5 {
+    font-size:110%;
+}
 
+.col-12.map {
+padding:0;
+margin:0;
+}
 }
 
 @media (max-height:467px) {
