@@ -358,6 +358,18 @@ footer p {
     margin: 20px 0;
 }
 
+#cafemenu:hover {
+  border-color: #f7c331;
+
+}
+
+#cafemenu a:hover {
+  text-decoration:none;
+}
+#cafemenu a h4:hover {
+ color:white;
+}
+
 /* ---PRICES */
 .center-it {
     margin-left:auto;
@@ -418,6 +430,11 @@ color:white;
     line-height:0;
     margin-top:23px;
     display:inline-block;
+}
+#bookercontact:hover {
+
+    border-color:#f7c331;
+
 }
 
 .contactbuttoncontainer {
