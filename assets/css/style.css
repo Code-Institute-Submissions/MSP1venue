@@ -461,6 +461,14 @@ iframe {
     text-align:center;
 }
 
+.contacttext h5 a {
+    color:#0000ee;
+}
+
+.contacttext h5 a:hover {
+    color: #f7c331;
+}
+
 
 
 /* MEDIAQUERIES */
