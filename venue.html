@@ -316,7 +316,7 @@
                          </button>
 				</div>
 				<div class="modal-body">
-					<form onsubmit="openModal()" id="bookingInquiryForm">
+					<form onsubmit="submissionReceived()" id="bookingInquiryForm">
 						<div class="form-group">
 							<label for="inputFirstName">First Name</label>
 							<input type="text" class="form-control" id="inputFirstName" required>
@@ -345,7 +345,7 @@
 										<label for="both">Both Venue Spaces</label><br/>
                                     </div>
 
-										<button type="submit" class="btn btn-success" data-dismiss="modal" data-toggle="modal" data-target="#succesModal">Submit</button>
+										<button type="submit" class="btn btn-success">Submit</button>
                                         <!-- data-toggle="modal" data-target="#succesModal" data-dismiss="modal" -->
 					</form>
 				</div>
@@ -353,7 +353,8 @@
 		</div>
 	</div>
 
-    	<div class="modal" tabindex="-1" role="dialog" id="succesModal">
+
+    	<!-- <div class="modal" tabindex="-1" role="dialog" id="succesModal">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
 				<div class="modal-header">
@@ -371,10 +372,19 @@
 				</div>
 			</div>
 		</div>
-	</div>
+	</div> -->
 
 	<!-- -----FORM MODAL END-->
 
+<!--Code for when clicking submit for form found on: https://www.w3schools.com/js/js_popup.asp -->
+<script>
+function submissionReceived() {
+    var txt;
+    if (confirm("Your request has been succesfully submitted. We will get in touch with you as soon as possible to discuss availability, pricing, catering and other details. See you under the Bell Jar!")) {
+    } 
+    document.getElementById("demo").innerHTML = txt;
+}
+</script>
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
 	</script>
