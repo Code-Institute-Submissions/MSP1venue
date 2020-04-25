@@ -100,32 +100,107 @@
 		</div>
 	</main>
 
-	<footer>
+<footer>
 		<div class="container-fluid">
 			<div class="row justify-content-lg-center">
 				<div class="col col-lg-10 footer-sets">
 					<div class="row">
 						<div class="col d-none d-md-block">
-                        <p>Lovingtonstreet 157 <br> 3590 AF, Charkville <br> +41 50 133 61 78 <br> <a id="footermail" href="mailto:info@thebelljar.org" target="_blank">info@thebelljar.org</a></p>
-                        </div>
+							<p>Lovingtonstreet 157 <br> 3590 AF, Charkville <br> +41 50 133 61 78 <br> <a
+									id="footermail" href="mailto:info@thebelljar.org"
+									target="_blank">info@thebelljar.org</a></p>
+						</div>
 						<div class="col">
 							<div class="buttoncontainer">
-								<button type="button" id="booker" class="hvr-grow-rotate" data-toggle="modal" data-target="#signUpModal"><h4 id="bookbutton">Book Now!</h4></button>
+								<button type="button" id="booker" class="hvr-grow-rotate" data-toggle="modal" data-target="#bookingModal"><h4 id="bookbutton">Book Now!</h4></button>
 							</div>
 						</div>
 						<div class="col d-none d-md-block">
-                        <ul class="list-inline social-links">
-                        <li class="list-inline-item"><a href="http://www.facebook.com/" target="_blank"><i class="fab fa-facebook-square"></i></a></li>
-                        <li class="list-inline-item"><a href="http://www.twitter.com/" target="_blank"><i class="fab fa-twitter-square"></i></a></li>
-                        <li class="list-inline-item"><a href="http://www.instagram.com/" target="_blank"><i class="fab fa-instagram-square"></i></a></li>
-                        </ul>
-                        
-                        </div>
+							<ul class="list-inline social-links">
+								<li class="list-inline-item"><a href="http://www.facebook.com/"
+										target="_blank"><i class="fab fa-facebook-square"></i></a></li>
+								<li class="list-inline-item"><a href="http://www.twitter.com/"
+										target="_blank"><i class="fab fa-twitter-square"></i></a></li>
+								<li class="list-inline-item"><a href="http://www.instagram.com/"
+										target="_blank"><i class="fab fa-instagram-square"></i></a></li>
+							</ul>
+
+						</div>
 					</div>
 				</div>
 			</div>
 		</div>
 	</footer>
+
+	<!-- ----FORM MODAL -->
+	<div class="modal" tabindex="-1" role="dialog" id="bookingModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Booking Inquiry</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                         </button>
+				</div>
+				<div class="modal-body">
+					<form onsubmit="openModal()" id="bookingInquiryForm">
+						<div class="form-group">
+							<label for="inputFirstName">First Name</label>
+							<input type="text" class="form-control" id="inputFirstName" required>
+                            </div>
+							<div class="form-group">
+								<label for="inputLastName">Last Name</label>
+								<input type="text" class="form-control" id="inputLastName" required>
+                                </div>
+								<div class="form-group">
+									<label for="inputEmail">Email address</label>
+									<input type="email" class="form-control" id="inputEmail" required>
+									<!--  aria-describedby="emailHelp"     <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small> -->
+								</div>
+								<div class="form-group">
+									<label for="inputDate">Date of Event</label>
+									<input type="date" class="form-control" id="inputDate">
+                                </div>
+			
+									<div class="form-group">
+                                    <legend>Select requested venue space</legend>
+										<input type="radio" name="venue" id="musicHall" value="Music Hall" required/>
+										<label for="musicHall">Music Hall</label><br/>
+										<input type="radio" name="venue" id="theatre" value="Theatre"/>
+										<label for="theatre">Theatre</label><br/>
+										<input type="radio" name="venue" id="both" value="Both Venues"/>
+										<label for="both">Both Venue Spaces</label><br/>
+                                    </div>
+
+										<button type="submit" class="btn btn-success" data-dismiss="modal" data-toggle="modal" data-target="#succesModal">Submit</button>
+                                        <!-- data-toggle="modal" data-target="#succesModal" data-dismiss="modal" -->
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+
+    	<div class="modal" tabindex="-1" role="dialog" id="succesModal">
+		<div class="modal-dialog" role="document">
+			<div class="modal-content">
+				<div class="modal-header">
+					<h5 class="modal-title">Thank you for your booking request!</h5>
+					<button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                         <span aria-hidden="true">&times;</span>
+                         </button>
+				</div>
+				<div class="modal-body">
+					<p>Your request has been succesfully submitted. We will get in touch with you as soon as possible to discuss availability, pricing, catering and other details. See you under the Bell Jar!</p>
+					
+
+										<button class="btn btn-success" data-dismiss="modal" aria-label="Close">Close</button>
+				
+				</div>
+			</div>
+		</div>
+	</div>
+
+	<!-- -----FORM MODAL END-->
 
 	<script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"
 		integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous">
