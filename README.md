@@ -5,7 +5,7 @@ This website was built as an educational exercise for Code Institute. The instru
 
 This website is inspired on my own current job managing a venue location. The website is set up to give information to potential clients about what kind of spaces we have available, the (technical) support and catering facilities and a general sense of the vibe of the venue. It also gives the potential clients information on pricing and allows them to fill out a booking request form which will put them in contact with the venue manager to discuss details for their event.
 
-The website can be viewed here:
+The website can be viewed here: https://maururo.github.io/MSP1venue/.
 
 ## UX ##
 
