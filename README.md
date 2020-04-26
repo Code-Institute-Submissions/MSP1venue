@@ -79,6 +79,9 @@ SECTION TO BE ADDED
 
 ## Deployment ##
 
+This website was deployed using Github Pages and is now accesible here: https://maururo.github.io/MSP1venue/
+
+The first bug I noticed after deployment was that the circular images on the website (catering page and prices page) were not being loaded/displayed on the deployed website.
 SECTION TO BE ADDED
 
 ## Credits ##
