@@ -76,6 +76,7 @@ _An additional piece of JavaScript code was used to enable a popup notifation af
 
 ## Testing ##
 
+### Validating ###
 The website was tested using W3 CSS/HTML validator (validator.w3.org).
 Each page's HTML code was run through the validator as well as the CSS code. Some issues arose, most of which were dealt with easily.
 Some issues remained undealt with, either because it seemed unnecessary or because of lack of knowlegde:
@@ -85,7 +86,52 @@ Some issues remained undealt with, either because it seemed unnecessary or becau
 * h4 not allowed as child of th element.
 * type "date" for the form input is not recognized for all browsers.
 * Bad value 150px for attribute (height/)width on element img: Expected a digit but saw p instead. *This seems right to me, I don't understand the problem.*
-* 
+
+It seems the "child/parent" issues are mostly convention issues and not technical ones. I need to get more familiar with the conventions.
+
+### Testing User Stories ###
+
+User stories are tested by manually going through the proces of attaining the user goal on the website and checking if every step is working as expected.
+
+* As I user I want to book a venue for a lecture.
+    * On any page, click the "Book Now Button" in the footer. OR: Go to contact page, click on "form" link in the text or the "Book Now" button on the page.
+    * Fill out the contact form. *(form testing below)*
+    * Click the submit button.
+    * See the confirmation message and click the close button.
+* As a user I want to get an impression of the available spaces.
+    * On any page click on the "Venue" navigation button in the menu/collapsed menu. OR on the home page click on the main page text.
+    * View the photo gallery for the Musichall and the gallery for the Theatre by clicking the left or right gallery scroll arrows inside the photo's. Also read the texts.
+* As a user I want to check if the venue meets the technical requirements for my event.
+    * On any page click on the "Venue" navigation button in the menu/collapsed menu. OR on the home page click on the main page text.
+    * Scroll down to the "What's Included" section.
+    * Read the texts in that section, specifically the text about equipment and technical staff.
+    * Click on the link in the "equipment" text titled "this list" to view a detailed list of available equipment.
+* As a user I want to look at the catering options for my event.
+    * On any page click on the "Catering" navigation button in the menu/collapsed menu. OR on the venue page click on the link "cafe" in the catering text in the What's Included section.
+    * Read the texts in on that page.
+    * Click on the download menu button on the page. Read the PDF that appears in a new browser tab.
+    * OR: use the phone number or click on the email address link to get in to contact with the cafe.
+* As a user I want to get an idea of the price range for the venue spaces.
+    * On any page click on the "Prices" navigation button in the menu/collapsed menu.
+* As a user I want to contact the venue.
+    * On any page click on the "Contact" navigation button in the menu/collapsed menu. OR: read the contact information in the footer and/or click email link in the footer.
+    * The user can contact the venue through the phone number displayed on the page, or by clicking the email address link on the page or by using the booking form which is accesible through two buttons and one link on the page.
+
+The booking form was tested by clicking the submit button after:
+1. Not filling in any fields.
+2. Filling in one field only (repeated for each field)
+3. Filling in non-valid text in the email field (date field won't allow anything other than date format).
+4. Filling in all fields (all are required).
+
+The form responded as expected, that is to say: It does not submit and gives an appropriate error message in scenario 1, 2 and 3. It does submit and give a confirmation message in scenario 4.
+The close button on the top right corner of the modal form also works.
+
+### Testing Website responsiveness ###
+
+The website was designed to have different layouts that are appropriate for respectively a phone, tablet or desktop device. In the design process I used an iphone 6/7/8 and an iPad as my handheld device models.
+
+All pages are tested by having them display in the respective format sizes. They are also tested by making the widht/height of the window gradually smaller to check if no weird "in between" layout transition issues occur.
+
 
 ## Deployment ##
 
