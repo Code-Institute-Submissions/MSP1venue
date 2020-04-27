@@ -48,7 +48,7 @@
 
 				<div class="col-12 d-sm-none" style="padding:0; margin-top:-54px">
 					<nav class="navbar navbar-dark navbar-expand-sm">
-						<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-controls="navbarDropdown" aria-expanded="false" aria-label="Toggle navigation">
+						<button class="navbar-toggler ml-auto" type="button" data-toggle="collapse" data-target="#navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
                   <span class="navbar-toggler-icon"></span>
                 </button>
 						<div class="collapse navbar-collapse" id="navbarNavDropdown">
@@ -89,10 +89,10 @@
 		<div class="container-fluid">
 			<div class="row justify-content-lg-center no-gutters main-sets" style="margin-left:-15px; margin-right:-15px">
 				<div class="col-12 col-lg-10 cafejumbo">
-					<span>
+					<div>
                     <h1>The Bell Café</h1>
                     <p>You'll never feel more at home.</p>
-                    </span>
+                    </div>
 				</div>
 				<div class="col-12 col-lg-7 cafetext">
 					<p>The Bell Jar and The Bell Café go hand in hand. Together we can give you our all-round
@@ -115,7 +115,7 @@
 
 				<div class="col-12 col-lg-10">
 					<div class="menubuttoncontainer">
-						<button type="button" id="cafemenu" class="hvr-icon-down"  data-target="" target="_blank"><a href="assets/pdfs/bellcafemenu.pdf" target="_blank"><h4 id="cafemenubutton">See our menu <i class="fas fa-arrow-circle-down hvr-icon"></i></h4></a></button>
+						<button type="button" id="cafemenu" class="hvr-icon-down"  data-target=""><a href="assets/pdfs/bellcafemenu.pdf" target="_blank"><h4 id="cafemenubutton">See our menu <i class="fas fa-arrow-circle-down hvr-icon"></i></h4></a></button>
 					</div>
 				</div>
 			</div>
@@ -154,7 +154,7 @@
 		</div>
 	</footer>
 
-		<!-- ----FORM MODAL -->
+		<!--FORM MODAL -->
 	<div class="modal" tabindex="-1" role="dialog" id="bookingModal">
 		<div class="modal-dialog" role="document">
 			<div class="modal-content">
@@ -184,6 +184,7 @@
                                 </div>
 			
 									<div class="form-group">
+                                   <fieldset>
                                     <legend>Select requested venue space</legend>
 										<input type="radio" name="venue" id="musicHall" value="Music Hall" required/>
 										<label for="musicHall">Music Hall</label><br/>
@@ -191,6 +192,7 @@
 										<label for="theatre">Theatre</label><br/>
 										<input type="radio" name="venue" id="both" value="Both Venues"/>
 										<label for="both">Both Venue Spaces</label><br/>
+                                        </fieldset>
                                     </div>
 
 										<button type="submit" class="btn btn-success">Submit</button>
@@ -200,7 +202,7 @@
 		</div>
 	</div>
 
-	<!-- -----FORM MODAL END-->
+	<!--FORM MODAL END-->
 
 <!--Code for when clicking submit for form found on: https://www.w3schools.com/js/js_popup.asp -->
 <script>

@@ -222,12 +222,13 @@ footer p {
     width:100%;
 }
 
-.jumbo span, .cafejumbo span {
+.jumbo div, .cafejumbo div {
     background-color:rgba(0,0,0,0.5);
     position:absolute;
     bottom:15%;
     right:5%;
     margin-left:5px;
+    display:inline-block;
 }
 .jumbo h1, .cafejumbo h1 {
     color:White;

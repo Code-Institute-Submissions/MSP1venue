@@ -76,7 +76,16 @@ _An additional piece of JavaScript code was used to enable a popup notifation af
 
 ## Testing ##
 
-SECTION TO BE ADDED
+The website was tested using W3 CSS/HTML validator (validator.w3.org).
+Each page's HTML code was run through the validator as well as the CSS code. Some issues arose, most of which were dealt with easily.
+Some issues remained undealt with, either because it seemed unnecessary or because of lack of knowlegde:
+
+* (a/)h4 is not allowed as child of button element.
+* h4 not allowed as child of a element.
+* h4 not allowed as child of th element.
+* type "date" for the form input is not recognized for all browsers.
+* Bad value 150px for attribute (height/)width on element img: Expected a digit but saw p instead. *This seems right to me, I don't understand the problem.*
+* 
 
 ## Deployment ##
 
