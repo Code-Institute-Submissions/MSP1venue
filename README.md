@@ -21,6 +21,13 @@ Here is a list of User Stories:
 The original wireframe for the basic design idea can be found here: https://github.com/MauRuRo/MSP1venue/blob/master/documents/The%20Bell%20Jar%20WireFrame.pdf
 .
 
+The color scheme was found after looking online for some nice combination examples. The bright yellow is there to indicate that the Bell Jar is a theatrical, light and open space. The contrasting grey is meant to tone down the yellow a bit and brind the website in to the realm of respectable webpages.
+
+For the typography I skimmed through google fonts and found Raleway. This font is not to extravagant but it has a hint of Art Deco seen in the large loops for the R's and B's and D's etc. It is also reflected in the crossed W. Montserrat was one of the suggested combination fonts: it's very similar to Raleway but a bit more toned down. The whiff of "Art Deco" is again meant to indicate that the venue is a Theatrical place. I didn't want to overdo it with to extreme a font since that would give off a less serious vibe as a venue business.
+
+The logo I made myself using Photoshop.
+
+The yellow buttons with the hover over effect are designed as such to bring brightness and a little bit of lightness to the website.
 
 ## Features ##
 
