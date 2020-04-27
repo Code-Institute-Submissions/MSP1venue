@@ -39,19 +39,7 @@ header h5 {
     background-repeat: no-repeat;
     height: 25vh;
     width:25vh;
-    /* background-position: center; */
     margin-left:calc(50% - 12.5vh);
-
-
-    /* transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out; 
-    -webkit-transition: all .5s ease-in-out; */
-    /* margin-left: calc(50% - 12.5vh); */
-    /* display:inline-block; */
-    /* position:absolute;
-    left:calc(50% -12.5vh); */
- 
-
 }
 
 #nav{
@@ -65,19 +53,13 @@ height:20%;
 }
 
 .menuitem {
-    /* padding:20px;
-    font-size:24px;
-    color:white;
-    border: 3px solid white; */
     text-decoration:none;
     color:white;
     text-transform:uppercase;
     text-align: center;
     line-height:50px;
-
- 
-
        }
+
    header .active {
     padding: 20px 5px 5px 5px;
     border-bottom:5px double #f7c331;
@@ -86,8 +68,7 @@ height:20%;
     border-top:2px solid #f7c331;
     border-top-left-radius: 50%;
     border-top-right-radius:50%;
-    /* background-color:rgba(255, 234, 42, 0.15) */
-    }
+}
 
 
 .menuitem:hover {
@@ -96,15 +77,12 @@ height:20%;
 }
 
 .menu-col{
-    /* border:1px solid black; */
     text-align:center;
     height:100%;
-    /* padding:0; */
    
 }
 
 header .container-fluid .row .col {
-    /* height:25vh;  */
     padding-top:calc(25vh - 50px)
 }
 
@@ -113,12 +91,8 @@ header .container-fluid .row .col {
 }
 
 
-
-
-
 /* -----FOOTER ----*/
 .footer-sets {
-    /* background-color:#dcc7aa; */
     background-color:#6b7a8f;
     height:100px;
 }
@@ -183,7 +157,6 @@ footer p {
     margin-right:0;
     border-radius:50%;
     font-size:40px;
-    /* line-height: 7px; */
     text-align:center;
     color:white;
     background:#6b7a8f;
@@ -216,7 +189,7 @@ footer p {
 #navbarNavDropdown {
     background-color:#6b7a8f;
     padding-left:0px;
-    margin-top:8px;r
+    margin-top:8px;
     width:100%;
      
 }
@@ -235,7 +208,6 @@ footer p {
 }
 
 
-/* ---MODAL FORM */
 
 /* -----PAGE CONTENT--- */
 
@@ -248,12 +220,6 @@ footer p {
     background-size: cover;
     height:100%;
     width:100%;
-    transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out;
-    /* display:inline-block; */
-    /* position:absolute;
-    left:calc(50% - 120px); */
 }
 
 .jumbo span, .cafejumbo span {
@@ -308,14 +274,6 @@ footer p {
     background-repeat: no-repeat;
     background-size: cover;
     height:50vh;
-    /* height:100%;
-    width:100%; */
-    /* transition: all .5s ease-in-out;
-    -moz-transition: all .5s ease-in-out;
-    -webkit-transition: all .5s ease-in-out; */
-    /* display:inline-block; */
-    /* position:absolute;
-    left:calc(50% - 120px); */
 }
 
 .col-12.col-lg-7.cafetext {

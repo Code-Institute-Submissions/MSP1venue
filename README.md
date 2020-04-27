@@ -39,6 +39,7 @@ The original wireframe for the basic design idea can be found here: https://gith
 
 * A modal popup post-submission – A nice modal popup that ensures the user their submission has been properly received and that they will be contacted soon.
 * An availability calendar – A calendar that shows the user when either of the venue spaces is still available for booking and when it’s already been booked.
+* An expanded form with more detailed questions about the proposed event and it's requirements. 
 
 ## Technologies Used ##
 * HTML5
@@ -82,7 +83,7 @@ SECTION TO BE ADDED
 This website was deployed using Github Pages and is now accesible here: https://maururo.github.io/MSP1venue/
 
 The first bug I noticed after deployment was that the circular images on the website (catering page and prices page) were not being loaded/displayed on the deployed website.
-SECTION TO BE ADDED
+This turned out to be a source link issue; in development the url "/assets/images/image.jpg" worked fine. However in the deployed website it needed to be "assets/images/image.jpg" (so "/" removed from start).
 
 ## Credits ##
 ### Content ##
