@@ -149,7 +149,7 @@ This turned out to be a source link issue; in development the url "/assets/image
 
 ## Credits ##
 ### Content ##
-* All text content and were made up by myself.
+* All text and content were made up by myself.
 ### Media ###
 * The photos used in this site were obtained from www.crea.nl (where I currently work) for the venue spaces. For the café manager I obtained a photo from unsplash.com: https://unsplash.com/photos/jOKB3tlCbjc. 
 ### Acknowledgements ###
